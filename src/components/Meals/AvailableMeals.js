@@ -5,6 +5,7 @@ import classes from './AvailableMeals.module.css';
 
 
 const AvailableMeals = () => {
+    fetch()
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
       key={meal.id}
